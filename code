@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprenda a Programar um Site</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #4cafef, #0072ff);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card h2 {
+      color: #0072ff;
+      margin-bottom: 10px;
+    }
+
+    .example {
+      margin-top: 15px;
+      padding: 15px;
+      background: #f0f8ff;
+      border: 1px solid #cce7ff;
+      border-radius: 6px;
+    }
+
+    button {
+      background: #0072ff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #005ad4;
+    }
+
+    footer {
+      background: #0072ff;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aprenda a Programar um Site 🚀</h1>
+    <p>Brinque com os exemplos abaixo e crie seu próprio site!</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>1. Título</h2>
+      <p>Os títulos são feitos com a tag <code>&lt;h1&gt;</code> até <code>&lt;h6&gt;</code>. Experimente mudar o texto abaixo.</p>
+      <div class="example">
+        <h3>➡️ Coloque um título aqui</h3>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>2. Parágrafos</h2>
+      <p>Use a tag <code>&lt;p&gt;</code> para criar textos. Edite o texto abaixo e veja como fica.</p>
+      <div class="example">
+        <p>➡️ Escreva seu parágrafo aqui</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>3. Botões</h2>
+      <p>Botões são criados com a tag <code>&lt;button&gt;</code>. Clique ou troque o texto abaixo.</p>
+      <div class="example">
+        <button>➡️ Coloque algo nesse botão</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>4. Links</h2>
+      <p>Links usam a tag <code>&lt;a&gt;</code>. Experimente trocar o texto ou o endereço.</p>
+      <div class="example">
+        <a href="#" target="_blank">➡️ Clique aqui para ir a algum lugar</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>5. Imagens</h2>
+      <p>Imagens usam a tag <code>&lt;img&gt;</code>. Troque o endereço abaixo por uma imagem da internet.</p>
+      <div class="example">
+        <img src="https://via.placeholder.com/200" alt="➡️ Coloque sua imagem aqui" style="max-width:200px; border-radius:8px;">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p> Criado para aprender HTML e CSS - Divirta-se programando!</p>
+  </footer>
+
+</body>
+</html>
